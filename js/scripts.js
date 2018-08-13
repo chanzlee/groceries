@@ -1,14 +1,16 @@
 $(document).ready(function() {
   $("#formOne").submit(function(event) {
 
-    var answers = ["person1", 'person2', 'animal', 'exclamation', 'verb', 'noun']
+    var answers = ["1", '2', '3']
 
-    answers.forEach(function(answer){
-      var userInput = $('input#' + answer).val();
-      $("." + answer).text(userInput);
+    answers.map(function(answer){
+      var userInput = $('input#' + answer).val().toUpperCase();
+
+      $("ul#output").append("<li>" + userInput + "</li>");
     });
 
-    $("#story").show();
+    $("#output").show();
+
     event.preventDefault();
   });
 });
