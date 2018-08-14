@@ -6,7 +6,7 @@
 
 ## Description
 
-_this webpage captures a user input and modify it to uppercases. It finally creates a unordered list on the bottom of the webpage._
+_This webpage captures a user input and modify it to uppercases. It finally creates a unordered list on the bottom of the webpage._
 
 ## Setup/Installation Requirements
 
